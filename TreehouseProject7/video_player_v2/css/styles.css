@@ -11,8 +11,8 @@ div#video_controls_bar{
 	padding:10px;
 	color:#CCC;
 	position: absolute;
-	bottom: -45px;
-    	right: 0;
+	bottom: 0;
+    right: 0;
 	padding-right: 50%;
 	visibility: hidden;
 }
@@ -21,8 +21,8 @@ input#seekslider{
 	width:100%;
 	margin: auto;
 	position: absolute;
-	bottom: 0px;
-    	right: 0;
+	bottom: 0;
+    right: 0;
 }
 
 input#volumeslider{

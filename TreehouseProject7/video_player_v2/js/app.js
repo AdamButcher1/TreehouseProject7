@@ -130,8 +130,22 @@ function hideControls() {
 	if (vid.paused === false) {
 	controls.style.visibility = "hidden";
 	}
+	seekslider.style.bottom = "0";
 }
 
 function showControls() {
 	controls.style.visibility = "visible";
+	if (document.documentElement.clientWidth < 700) {
+		seekslider.style.bottom = "45%";
+	}
+	if (document.documentElement.clientWidth < 705) {
+		seekslider.style.bottom = "32%";
+	}
+	else if (document.documentElement.clientWidth < 1465) {
+		seekslider.style.bottom = "20%";
+	}
+	else if (document.documentElement.clientWidth < 1560) {
+		seekslider.style.bottom = "18%";
+	} else
+	seekslider.style.bottom = "12%";
 }
